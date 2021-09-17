@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'gameover',
+    loadChildren: () => import('./gameover/gameover.module').then( m => m.GameoverPageModule)
+  },
 ];
 
 @NgModule({
