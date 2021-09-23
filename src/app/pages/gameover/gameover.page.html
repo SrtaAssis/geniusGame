@@ -1,0 +1,22 @@
+
+<style>
+    @import url('http://fonts.cdnfonts.com/css/games');
+</style>             
+<ion-content>
+  <div id="container">
+    <h1>Game Over</h1>
+    <ion-card>
+      <div id="container">
+        <p>Score:{{score}}</p>
+        <p>Record:{{bestScore}}</p>
+      </div>
+        
+ 
+    </ion-card>
+    <h2>Continue ?</h2>
+    <ion-button color="none" class="start" (click)="start()"><ion-icon name="refresh"></ion-icon> Reiniciar</ion-button>
+    <ion-button color="none" class="sair" (click)="sair()"><ion-icon name="log-out"></ion-icon> sair</ion-button>
+  
+  </div>
+
+</ion-content>

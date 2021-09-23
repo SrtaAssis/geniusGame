@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Jogo da Memoria",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

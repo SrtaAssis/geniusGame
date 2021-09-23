@@ -1,0 +1,23 @@
+<ion-content [fullscreen]="true">
+
+  <ion-card>
+    <div id="divIonCard">
+      <p>Score: {{score}}</p>
+      <p>Record: {{bestScore}}</p>
+    </div>
+
+  </ion-card>
+  
+
+
+  
+  <div id="container">
+    <div color="none" class="{{verde}}"  (click)="botaoverde()"></div>
+    <div color="none" class="{{vermelho}}" (click)="botaovermelho()"></div>
+  
+    <div color="none" class="{{amarelo}}" (click)="botaoamarelo()" ></div>
+    <div color="none" class="{{azul}}" (click)="botaoazul()" ></div>
+  </div>
+
+
+</ion-content>

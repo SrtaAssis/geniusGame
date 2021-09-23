@@ -1,0 +1,90 @@
+h2{
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+
+    .preto{
+        background-color: #121212;
+        margin: 0 auto;
+        height: 40vh;
+        width: 75vw;
+        border-radius: 5rem;
+    }
+}
+.start{
+    background-color: orange;
+
+}
+ion-button{
+
+    --border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    // margin-top: 1rem;
+
+}
+
+p{
+    // margin-top: 3rem;
+    font-family: 'Games', sans-serif;
+    font-size: 8vw;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#cores{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+
+    width: 100vw;
+    height: 60vh;
+
+    
+    div{
+        height: 47%;
+        width: 47%;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+}
+
+.verde{
+
+    background-color: green;
+    border-top-left-radius: 5rem;
+    margin-right: 0.6rem;
+}
+.vermelho{
+    background-color: red;
+    border-top-right-radius: 5rem;
+
+}
+.amarelo{
+
+    background-color: yellow;
+    border-bottom-left-radius: 5rem;
+    margin-right: 0.6rem;
+    margin-top: 0.5rem;
+
+
+}
+.azul{
+
+    background-color: blue;
+    border-bottom-right-radius: 5rem;
+
+}
